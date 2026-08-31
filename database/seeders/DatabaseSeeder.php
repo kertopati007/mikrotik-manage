@@ -29,17 +29,8 @@ class DatabaseSeeder extends Seeder
             'password' => bcrypt('agaksusah'),
         ]);
 
-        // $user->routers()->create([
-        //     'name' => 'Office Gateway (RB750Gr3)',
-        //     'host' => '192.168.88.1',
-        //     'port' => 8728,
-        //     'username' => 'admin',
-        //     'password' => '',
-        //     'use_ssl' => false,
-        //     'is_active' => true,
-        //     'status' => 'connected',
-        //     'last_connected_at' => now(),
-        // ]);
-
+        $this->call([
+            RouterSeeder::class,
+        ]);
     }
 }
