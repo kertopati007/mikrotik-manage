@@ -122,7 +122,7 @@ mikrotik-apps/
 1. **Clone repository & masuk ke direktori**:
 
    ```bash
-   cd D:\KERJA\router\mikrotik-apps
+   git clone https://github.com/kertopati007/mikrotik-manage.git
    ```
 
 2. **Install dependensi PHP & JavaScript**:
